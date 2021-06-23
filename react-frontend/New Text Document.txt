@@ -1,0 +1,4 @@
+npx create-react-app yourfoldername
+npm install bootstrap --save
+npm add axios
+npm install react-router-dom
