@@ -1,0 +1,179 @@
+body{
+	background: url("/Images/library.jpg") no-repeat center center fixed;
+	font-family: Helvetica, sans-serif;
+	background-color: #5D5A5E;
+	background-size: cover;
+	 width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+  
+  .navbar {
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: 0;
+    padding: 2rem;
+  }
+  
+ .navbar_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .ebook .navbar_list .navbarlinks {
+    list-style: none;
+  }
+  
+  .navbar_list .navbarlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .ebook_content {
+    width: 50rem;
+    height: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .ebook_content .textbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .ebook_content .textbox .heading {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .ebook_content .span {
+    background: white;
+    width: 15rem;
+    margin:5px;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .ebook_content .span:hover {
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+  
+  .ebook_content .span:active {
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  
+  .ebook_content .span .iconify {
+    color:black;
+  }
+  
+  .ebook_content .span button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.6rem;
+    color:black;
+
+  }
+  
+    .ebook_content .span1 {
+    background: white;
+    margin:5px;
+    width: 15rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .ebook_content .span1:hover {
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+  
+  .ebook_content .span1:active {
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.849);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  
+  .ebook_content .span1 .iconify {
+    color:black;
+  }
+  
+  .ebook_content .span1 button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.6rem;
+    color: black;
+  }

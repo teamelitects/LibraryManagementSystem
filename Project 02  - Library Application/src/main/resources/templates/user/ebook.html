@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="ISO-8859-1">
+<title>E Books</title>
+<link rel="stylesheet" type="text/css" th:href="@{/CSS/ebook.css}">
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+<script>
+                        function change_text(){
+                        // document.getElementById("result").innerHTML = "Your File is Downloaded";
+                        setTimeout(() => { document.getElementById("result").innerHTML =("Download Completed"); }, 2000);
+                        document.getElementById("eb").innerHTML = "Your File is Downloading";
+                        }
+                    </script>
+  </head>
+  <body>
+        <nav class="navbar">
+           
+            <ul class="navbar_list">
+                <li class="navbarlinks"><a th:href="@{/user/browsebooks}">Back</a></li>
+            </ul>
+        </nav>
+        <div class="ebook_content">
+            <div class="textbox">
+                <span class="iconify" data-inline="false" data-icon="bx:bx-library" style="color: #ffffff; font-size: 64px;"></span>
+                <h1 class="heading">E-BOOK</h1>
+            </div>
+             <span class="span1">
+               <a href="https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"> <button>View File</button></a>
+                <span class="iconify" data-inline="false" data-icon="cil-link-alt" style="font-size: 36px;"></span>
+            </span>
+             <span class="span" id="result">
+               <button id="eb" onclick="change_text()">Download</button>
+                <span class="iconify" data-inline="false" data-icon="cil:cloud-download" style="font-size: 36px;"></span>
+            </span>
+        </div>
+  </body>
+</html>
